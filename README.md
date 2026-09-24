@@ -27,6 +27,6 @@ Traditional EDR solutions inject a user-mode agent DLL into target processes to 
        ├──> 2. Export Parsing & ROR/ROL Hash Lookup       ├──> 3. Scan Stub Signature (0x4C, 0x8B, 0xD1, 0xB8)
        │       └── [If Hooked] ──> Search Neighbor Stubs ──> Calculate SSN
        └──> 4. Invoke Assembly Dispatcher (`invoke_syscall`) ──────> [ Windows Kernel ]
-
+```
 
 Disclaimer: All research and code execution were conducted in an isolated, dedicated laboratory environment strictly for educational and defense-research purposes.
